@@ -1,7 +1,7 @@
 var x = Math.floor((Math.random() * 6) + 1);
 var y = Math.floor((Math.random() * 6) + 1);
-var randomDiceImage1 ="images/dice" + x + ".png";
-var randomDiceImage2 ="images/dice" + y + ".png";
+var randomDiceImage1 ="dice" + x + ".png";
+var randomDiceImage2 ="dice" + y + ".png";
 var image1 = document.querySelectorAll("img")[0];
 image1.setAttribute("src", randomDiceImage1);
 var image2 = document.querySelectorAll("img")[1];
